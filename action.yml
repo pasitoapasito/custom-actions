@@ -1,0 +1,7 @@
+name: "CI/CD Custom Actions"
+description: "project slack custom actions"
+author: "DGK"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"

@@ -1,5 +1,5 @@
-name: "CI/CD Custom Actions"
-description: "project slack custom actions"
+name: Github Custom Actions
+description: "project github custom actions with slack"
 author: "DGK"
 
 runs:

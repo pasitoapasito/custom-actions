@@ -1,6 +1,6 @@
 #!/bin/sh
 
-CMD = "$1"
+CMD="$1"
 
 __slack() {
   if [ -z "${SLACK_TOKEN}" ]; then
@@ -14,7 +14,7 @@ __slack() {
   fi
 
   curl \
-    -XPOST\
+    -X POST\
     -H "Content-type: application/json"\
     --data "{\"text\": \"${SLACK_MESSAGE}\"}"\
     "https://hooks.slack.com/services/${SLACK_TOKEN}"
